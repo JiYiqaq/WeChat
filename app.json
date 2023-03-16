@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/next/next",
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/post/post",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "test1",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/slectsalebus.png",
+      "selectedIconPath": "images/salebus.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "images/bfind.png",
+      "selectedIconPath": "images/bfind.png"
+    },
+    {
+      "pagePath": "pages/post/post",
+      "text": "发帖",
+      "iconPath": "images/post.png",
+      "selectedIconPath": "images/post.png"
+    }
+   ,
+  {
+    "pagePath": "pages/message/message",
+    "text": "消息",
+    "iconPath": "images/message.png",
+    "selectedIconPath": "images/message.png"
+  },
+  {
+    "pagePath": "pages/my/my",
+    "text": "我的",
+    "iconPath": "images/my.png",
+    "selectedIconPath": "images/my.png"
+  }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

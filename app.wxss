@@ -1,0 +1,9 @@
+.container {
+  height: 100%;/**高度占有整个屏幕**/
+  display: flex; /**弹性布局**/
+  flex-direction: column; /**列方向显示**/
+  align-items: center; /**居中**/
+  justify-content: space-between; /**它会把子元素靠边对齐平均分剩余的空间**/
+  padding: 200rpx 0; 
+  box-sizing: border-box; /**上下左右距离**/
+} 

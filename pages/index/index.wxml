@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+<view style="text-align:center;">这是第一个网页</view>
+<button bindtap="bindViewNext">转向第2页</button>
